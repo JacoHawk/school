@@ -1,3 +1,33 @@
+@media screen and (max-width: 950px) {
+    nav a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .container {
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr;
+    }
+
+    .lab > a, .project > a {
+        font-size: 90%;
+    }
+
+    .lab > a:hover, .project > a:hover {
+        font-size: 105%;
+    }
+
+    .project {
+        margin-top: 30px;
+    }
+
+    .project > a {
+        margin-bottom: 10px;
+    }
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #222930;
@@ -138,26 +168,4 @@ section > .lab {
     font-size: 22px;
     padding: 13px;
     transition: all 200ms ease-in;
-}
-
-@media screen and (max-width: 950px) {
-    nav a {
-        display: flex;
-        justify-content: center;
-    }
-}
-
-@media screen and (max-width: 650px) {
-    .container {
-        grid-template-columns: 1fr;
-        grid-template-rows: 2fr;
-    }
-
-    .project {
-        margin-top: 30px;
-    }
-
-    .project > a {
-        margin-bottom: 10px;
-    }
 }
