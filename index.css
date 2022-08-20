@@ -165,7 +165,7 @@ section > .lab {
         font-size: 90%;
         padding: 8px;
         border-radius: 8px;
-        margin: auto 4px auto 4px;
+        margin: 10px 4px 10px 4px;
     }
 
     .lab > a:hover, .project > a:hover {
