@@ -147,6 +147,15 @@ section > .lab {
 }
 
 @media screen and (max-width: 650px) {
+    #title {
+        font-size: 35px;
+    }
+
+    #subTitle {
+        margin: 10px 15px;
+        font-size: 25px;
+    }
+
     .container {
         grid-template-columns: 1fr;
         grid-template-rows: 2fr;
@@ -154,6 +163,9 @@ section > .lab {
 
     .lab > a, .project > a {
         font-size: 90%;
+        padding: 8px;
+        border-radius: 8px;
+        margin: auto 4px auto 4px;
     }
 
     .lab > a:hover, .project > a:hover {
@@ -165,6 +177,7 @@ section > .lab {
     }
 
     .project > a {
+        margin: auto;
         margin-bottom: 10px;
     }
 }
